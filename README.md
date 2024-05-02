@@ -14,6 +14,12 @@
 - [x] Error Management (w/ Sentry)
 - [x] Routing/image page (parallel route)
 - [x] ShadUI (toasts)
-- [ ] Delete button (w/ Server Actions)
+- [x] Delete button (w/ Server Actions)
 - [x] Analytics (posthog)
-- [ ] Ratelimiting (upstash)
+- [x] Ratelimiting (upstash)
+
+## More
+
+- [ ] fix the page layout for images of different resolutions
+- [ ] infinite scroll
+- [ ] Folders/albums
