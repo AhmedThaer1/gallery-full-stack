@@ -91,6 +91,11 @@ export function SimpleUploadButton() {
         },
       );
     },
+    onUploadError(error) {
+      posthog.capture("image_upload_error", { error });
+      toast.dismiss("upload-begin");
+      toast("Image upload failed. Please try again later.");
+    },
     onClientUploadComplete() {
       toast.dismiss("upload-begin");
       toast("Image uploaded successfully!");
