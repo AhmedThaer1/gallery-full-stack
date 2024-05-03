@@ -20,6 +20,6 @@
 
 ## More
 
-- [ ] fix the page layout for images of different resolutions
+- [x] fix the page layout for images of different resolutions
 - [ ] infinite scroll
 - [ ] Folders/albums
